@@ -8,7 +8,7 @@
     font-family: var(--sakib);
 }
 .photo{
-    background-image: url(sea.webp);
+    background-image: url(https://images.unsplash.com/photo-1500198894528-3819de6ad916?q=80&w=1932&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
@@ -137,6 +137,7 @@ input{
 .skaib-image{
     width: 40.25px;
     height: 37px;
+    color: #c4c5ff;
 }
 span{
     font-weight: 900;
@@ -236,13 +237,20 @@ span{
 }
 .sub-form{
     display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.br{
+    text-indent: 5px;
+    font-size: 16px;
+    border-radius: 10px;
 }
 .sub-inp{
     width: 70%;
     height: 60px;
 }
 .food{
-    background-image: url('food1.jpg');
+    background-image: url('https://images.unsplash.com/photo-1487790343276-2fe56a7d9439?q=80&w=2067&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: scroll;
@@ -267,8 +275,9 @@ span{
 }
 .section-header{
     font-size: 70px;
-    text-align: center;
     font-weight: 900;
+    text-align: center;
+    color: rgb(86, 62, 62);
 }
 .premium{
     width: 100%;
@@ -488,6 +497,7 @@ footer{
     }
     .section-header{
         font-size: 60px;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 1238px){
@@ -507,6 +517,7 @@ footer{
     }
     .section-header{
         font-size: 50px;
+        text-align: center;
     }
 }
 @media only screen and (max-width: 725px) {
@@ -526,6 +537,7 @@ footer{
         }
         .section-header{
             font-size: 40px;
+            text-align: center;
         }
     }
 
